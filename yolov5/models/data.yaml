@@ -1,0 +1,8 @@
+train: yolo_data/images/train # path to train folder
+val: yolo_data/images/val # path to val folder
+
+# number of classes
+nc: 8
+
+# class names
+names: ["auto", "bus", "car", "lcv", "motorcycle", "multiaxle", "tractor", "truck"]
